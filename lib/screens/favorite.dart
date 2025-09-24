@@ -1,7 +1,7 @@
 import 'package:cosmopic/service/image_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'description.dart';
+import 'model/description.dart';
 
 class Favorite extends StatefulWidget {
   const Favorite({super.key});

@@ -3,7 +3,7 @@ import 'package:cosmopic/service/image_manager.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'description.dart';
+import 'model/description.dart';
 import 'model/api_model.dart';
 
 class History extends StatefulWidget {
