@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:cosmopic/description.dart';
+import 'package:cosmopic/screens/description.dart';
 import 'package:cosmopic/model/api_model.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
@@ -15,7 +15,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
 
   bool _isLoading = true;
-  late APIModel apiModel;
+  APIModel? apiModel;
 
   @override
   void initState() {
@@ -146,7 +146,7 @@ class _HomeState extends State<Home> {
                       context,
                       PageRouteBuilder(
                         transitionDuration: Duration(milliseconds: 300),
-                        pageBuilder: (context, animation, secondaryAnimation) => Description(apiModel: apiModel),
+                        pageBuilder: (context, animation, secondaryAnimation) => Description(apiModel: apiModel!),
                         transitionsBuilder: (context, animation, secondaryAnimation, child) {
                           return FadeTransition(opacity: animation, child: child);
                         },

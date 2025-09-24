@@ -1,5 +1,3 @@
-import 'package:cosmopic/BottomNavigation.dart';
-import 'package:cosmopic/home.dart';
 import 'package:cosmopic/service/image_manager.dart';
 import 'package:cosmopic/splash_screen.dart';
 import 'package:flutter/material.dart';

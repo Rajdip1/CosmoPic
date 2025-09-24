@@ -1,8 +1,7 @@
-import 'package:cosmopic/favorite.dart';
-import 'package:cosmopic/history.dart';
-import 'package:cosmopic/model/api_model.dart';
+import 'package:cosmopic/screens/favorite.dart';
+import 'package:cosmopic/screens/history.dart';
 import 'package:flutter/material.dart';
-import 'home.dart';
+import 'screens/home.dart';
 
 class Bottomnavigation extends StatefulWidget {
   const Bottomnavigation({super.key});
