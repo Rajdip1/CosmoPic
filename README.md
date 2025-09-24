@@ -12,7 +12,7 @@ CosmoPic is a Flutter application that showcases the "Image of the Day" from NAS
 
 ## Screenshots
 
-*(You can add screenshots of your app here)*
+*(Screenshots of app here)*
 
 ## Getting Started
 
